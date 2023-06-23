@@ -1,13 +1,93 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  border: 0cap;
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+nav{
+  background-color: #f6f6f6;
+  block-size: auto
+  ;
+}
+
+.img{
+  display: inline-flexbox;
+  
+  width: 100px;
+  height: 100px;
+  margin: 25px  30px 50px 50px;
+  
+  border-radius: 100pc;
+  border-color: black;
+  border: solid;
+}
+.head{
+  display:  inline-flex;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 500;
+  font-size: 50px;
+  margin:  25px 200px 10px 10px;
+  
+}
+.btn-light{
+  margin-top: 20px;
+  margin-left:90%;
+  width: 90px;
+  height:40px;
+  display: inline-flexbox;
+  border: 0cqb;
+}
+
+.btn-dark{
+  margin-top: 20px;
+  margin-left:5px ;
+  width: 90px;
+  height:40px;
+}
+
+
+.but{
+  font-size: 20px;
+}
+
+
+
+main{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.body{
+  background-color: rgb(187, 190, 192);
+}
+
+.sec{
+  background-color: black;
+}
+
+.d-block{
+
+ padding: 30px 30px 60px 60px;
+  
+  height: 45rem;
+  
+}
+
+.card{
+
+  padding: 30px 30px 60px 60px;
+ 
+
+}
+
+.poster{
+  margin-bottom: 50px;
+  margin-top: 5px;
+}
+
+.col{
+  width: 10rem;
+}
+
+.cards{
+  width: 100px;
+  height:  20px;
+
 }
